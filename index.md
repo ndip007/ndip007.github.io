@@ -1,8 +1,19 @@
 ## Project abstract
 
+Support a continuous integration (CI) generation of SPDX files by creating a plugins or extensions to build tools. These plugins or extensions will generate valid SPDX documents based on the build file metadata and source files. 
+The Yocto build environment currently has some SPDX file generation capabilities, but there is a need for some additional work to integrate some of the existing tools into a more complete integrated toolset. The SPDX Maven Plugin is an example of an existing build tool SPDX generator.
+
 ## Project goals
 
+Write a build-tool agnostic plugin that can generate spdx file of an indicated project upon build.
+
 ## Development constraints
+
+The first two project types selected were:
+- Python projects
+- Node projects
+
+And as build tool, the integration had to be done on travis-CI.
 
 ## Development results
 
