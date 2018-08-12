@@ -55,7 +55,7 @@ Run `pip install -e .`
 There are several entry points, but the one that does the analysis, parsing and download is `spdx-build`.
 So, Run `spdx-build '~/Desktop/(some-project)/'`.
 
-## How to test plugin
+## Development results
 
 ## Future work scope
 
